@@ -57,6 +57,7 @@ ul.list li:before {
   background-repeat: no-repeat;
   background-position: center;
   color: white;
+ 
 }
 .img {
   height: 157px;
@@ -68,6 +69,7 @@ ul.list li:before {
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 472px 157px;
+  border-radius: 10px;
 }
 .block {
   width: 430px;
@@ -112,15 +114,6 @@ section.about-product {
 .product p {
   width: 646px;
 }
-/*.dignity {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 50px;
-    box-sizing: border-box;
-    background-color: #f5f5f5;
-    /*border: 1px solid red;
-  }*/
 .caption {
   width: 100%;
   text-align: center;
@@ -172,10 +165,12 @@ section.dignity .caption {
   height: 100px;
   background-color: #445161;
   margin: 35px 0 0 70px;
-  background-image: url(https://live.staticflickr.com/8491/8354120456_ee75ff44ba.jpg);
+  background-image: url('http://www.thewowstyle.com/wp-content/uploads/2015/01/Nature-pictures-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100px 100px;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px 3px greenyellow;
 }
 
 .screenshots-item-txt {
